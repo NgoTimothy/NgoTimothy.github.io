@@ -110,6 +110,10 @@ ul {
 
 
 @media screen and (max-width: 950px) {
+    .services-image {
+        width: 100%;
+    }
+
     .nav-item {
         text-align: center;
     }
