@@ -138,8 +138,8 @@ ul {
         text-align: center;
     }
 
-    .main-content {
-        font-family: Poppins-Medium;
+    #home-email {
+        font-size: 27px;
     }
 
     .day {
