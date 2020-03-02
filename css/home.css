@@ -138,6 +138,10 @@ ul {
         text-align: center;
     }
 
+    .main-content {
+        max-width: 100%;
+    }
+
     .day {
         float: left;
         padding-left: 10%;
