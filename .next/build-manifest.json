@@ -1,42 +1,32 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/runtime/react-refresh.js",
+    "static/development/dll/dll_4b8bef20edde04f98d3f.js",
+    "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
+  ],
   "lowPriorityFiles": [
-    "static/U0V9AhRF2U7K1jL6wFGYM/_buildManifest.js",
-    "static/U0V9AhRF2U7K1jL6wFGYM/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.452ed29a86175160784f.js",
-      "static/chunks/commons.04448986172abcdf9360.js",
-      "static/runtime/main-eaf9301316108ddd834b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.452ed29a86175160784f.js",
-      "static/chunks/commons.04448986172abcdf9360.js",
-      "static/runtime/main-eaf9301316108ddd834b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.452ed29a86175160784f.js",
-      "static/chunks/commons.04448986172abcdf9360.js",
-      "static/runtime/main-eaf9301316108ddd834b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-c47376ea2e40b4964992.js"
-    ],
-    "/about": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.452ed29a86175160784f.js",
-      "static/chunks/commons.04448986172abcdf9360.js",
-      "static/runtime/main-eaf9301316108ddd834b.js"
+      "static/runtime/polyfills.js"
     ],
     "/index": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.452ed29a86175160784f.js",
-      "static/chunks/commons.04448986172abcdf9360.js",
-      "static/runtime/main-eaf9301316108ddd834b.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
