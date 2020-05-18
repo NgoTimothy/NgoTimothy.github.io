@@ -2,7 +2,7 @@
 
 This repository is a gh-pages example build with Next.js
 
-https://thierryc.github.io/Next-gh-page-example/
+https://NgoTimothy.github.io/NgoTimothy.github.io/
 
 Install it and run:
 
