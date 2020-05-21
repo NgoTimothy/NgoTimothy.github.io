@@ -1,4 +1,9 @@
 import Link from 'next/link'
+import NavBar from '../components/NavBar'
+
 export default () => (
-  <div>Hello World. <Link href='/about' as={ process.env.BACKEND_URL + '/about'}><a>About</a></Link></div>
+  <div>
+    <NavBar></NavBar>
+    <h1>Hello World. My Name is Timothy.</h1>
+  </div>
 )
