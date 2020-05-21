@@ -8,13 +8,14 @@ export default () => (
       <Navbar.Brand href='.'>LOL</Navbar.Brand>
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />
       <Navbar.Collapse id='responsive-navbar-nav'>
-        <Nav>
-          <Nav.Link href='/about'><h2>Hi</h2></Nav.Link> 
-          <NavDropdown title="News" id='collasible-nav-dropdown'>
+        <Nav className="ml-auto">
+          <Nav.Link className="mx-auto" href="#">Hi</Nav.Link>
+          <NavDropdown title="News" className="mx-auto" id='collasible-nav-dropdown'>
           <NavDropdown.Item>Business</NavDropdown.Item>
           <NavDropdown.Divider/>
           <NavDropdown.Item>Technology</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link className="mx-auto" href="#">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
