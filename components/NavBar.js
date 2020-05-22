@@ -28,9 +28,3 @@ export default () => (
     </Navbar>
   </div>
 )
-{/* <Link href='/about' as={ process.env.BACKEND_URL + '/about'}><h1>About</h1> </Link>  */}
-{/* <NavDropdown title='News' className='mx-auto' id='collasible-nav-dropdown'>
-          <NavDropdown.Item>Business</NavDropdown.Item>
-          <NavDropdown.Divider/>
-          <NavDropdown.Item>Technology</NavDropdown.Item>
-          </NavDropdown> */}
