@@ -1,8 +1,15 @@
-import Link from 'next/link'
+import NavBar from '../components/NavBar'
+import Home from '../style/themes/theme'
 
 export default () => (
   <div>
-    <div>About us</div>
-    <div>Back to <Link href='/' as={ process.env.BACKEND_URL + '/'}><a>Home</a></Link></div>
+    <NavBar></NavBar>
+    <style jsx global>{`
+      body {
+        background-color: ${Home.background};
+        color: ${Home.text};
+        text-align: ${Home.alignCenter};
+      }
+    `}</style>
   </div>
 )

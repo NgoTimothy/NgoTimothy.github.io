@@ -1,7 +1,5 @@
-import Link from 'next/link'
 import NavBar from '../components/NavBar'
 import Home from '../style/themes/theme'
-import Align from '../style/themes/theme'
 
 export default () => (
   <div>
